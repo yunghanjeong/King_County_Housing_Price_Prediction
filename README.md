@@ -15,6 +15,7 @@ During the exploratory phase following questions will also be focused on:
     .
     ├── data                                # data folder
     ├── reference                           # project reference files
+    ├── images                              # project image/graph files
     ├── src                                 # Source files  
     ├── housing_price_prediction.ipynb      # project notebook
     └── README.md
