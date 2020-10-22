@@ -22,6 +22,12 @@ During the exploratory phase following questions will also be focused on:
 
 ## Analysis
 
+![rich neighborhoods](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/high_price_neighborhood.png?raw=true)<br>
+
+![house_features](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/basement_renovation_value.png?raw=true)<br>
+
+![conditions](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/condition_value.png?raw=true)<br>
+
 ## Modeling
 
 ## Summary
