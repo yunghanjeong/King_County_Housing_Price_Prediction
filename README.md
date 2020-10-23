@@ -14,9 +14,11 @@ During the exploratory phase following questions will also be focused on:
 ## Repository Structure
     .
     ├── data                                # data folder
+    │   ├── zipcode_shape                   # shapefile for plotting with zipcode
     ├── reference                           # project reference files
     ├── images                              # project image/graph files
-    ├── src                                 # Source files  
+    ├── models                              # final regression models
+    ├── results                             # model predicted file location
     ├── housing_price_prediction.ipynb      # project notebook
     └── README.md
 
@@ -24,9 +26,12 @@ During the exploratory phase following questions will also be focused on:
 
 ![rich neighborhoods](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/high_price_neighborhood.png?raw=true)<br>
 
+![rich neighborhoods map](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/zipcode_price_heatmap.png?raw=true)<br>
+
 ![house_features](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/basement_renovation_value.png?raw=true)<br>
 
 ![conditions](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/condition_value.png?raw=true)<br>
+
 
 ## Modeling
 
