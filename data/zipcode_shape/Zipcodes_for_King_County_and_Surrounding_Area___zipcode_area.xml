@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20070228</pubdate>
+                <title>Zipcodes for King County and Surrounding Area</title>
+                <edition>One</edition>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>King County</publish>
+                </pubinfo>
+                <othercit>None</othercit>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=326cb26c6bb549529f608d7d5f40853b</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=526cdf3320c44101a8bf37487ea0047d</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/Metadata.aspx?Layer=zipcode</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>http://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Zip Code Boundaries for King, Pierce, Snohomish, Kitsap</abstract>
+            <purpose>Outline zip codes in King County for analysis and display.</purpose>
+            <supplinf>None</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20101112</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>As needed</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-123.071042</westbc>
+                <eastbc>-119.899185</eastbc>
+                <northbc>48.309156</northbc>
+                <southbc>46.711915</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>Not applicable</themekt>
+                <themekey>administrative_OpenData</themekey>
+                <themekey>administrative</themekey>
+                <themekey>admin</themekey>
+                <themekey>zipcode</themekey>
+                <themekey>zip</themekey>
+                <themekey>zipcode_area</themekey>
+                <themekey>kingcounty_opendata</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>Not applicable</placekt>
+                <placekey>Pacific NW</placekey>
+                <placekey>King County</placekey>
+                <placekey>Washington state</placekey>
+                <placekey>WA</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>King County data are made available with the understanding that they shall be used exclusively by the obtainer or his/her authorized agents. Digital products may not be reproduced or redistributed in any form or by any means without the express written authorization of King County.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Gavin Gray</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 706</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-4493</cntvoice>
+            </cntinfo>
+        </ptcontac>
+        <browse>
+            <browsen>http://www5.kingcounty.gov/sdc/DataImages/zipcode.jpg</browsen>
+            <browsed>JPG File of layer overlain on base of WA counties or local cities</browsed>
+            <browset>JPG</browset>
+        </browse>
+        <native>ESRI ArcGIS 10.0.3.3600</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Zipcode has been updated with January 2003 Postal Service Five Digit Zip Code maps and Washington State Department of Revenue Zip Code database.</procdesc>
+                <procdate>20030725</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Overlay E-site data (point data combined with E911 and USPS addresses) on top of zipcode and parcel data layers. Modify zipcode polygon, divide into smaller polygon with carrier route ID and aline with parcel data.</procdesc>
+                <procdate>20080731</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Dissolve by Zip, Zip Type, County.</procdesc>
+                <procdate>20080731</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Update Zip Codes for East King County using E-911 address point data. Zipcodes include 98010, 11, 14, 19, 22, 24, 25, 27, 29, 34, 38, 41, 45, 50, 51, 53, 65, 72, 74, 75, 77, 92</procdesc>
+                <procdate>20100920</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Update Zip Codes for much of suburban King County using E-911 address point data. Zipcodes include 98001, 02, 03, 06, 28, 30, 31, 33, 39, 42, 47, 52, 55, 56, 57, 58, 59, 98146, 48, 58, 68, 78, 98354. Minor changes to 98003, 04, 07, 08, 11, 32, 40, 75, 77, 92, 98106, 08, 18, 88. Removed 98054 (obsolete).</procdesc>
+                <procdate>20101112</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Updated 98011,98028,98074 and 98072, ZIP boundary change for Kirkland North Juanita Annexation. Updated 98031, 98055 and 98058, boundary change for Kent Panther Lake Annexation. Updated 98032 and 98198, western boundary of Kent along Pacific Hwy S.</procdesc>
+                <procdate>20110726</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Removed a number of smaller polygons by merging into adjacent polygons, where the Zip codes were better represented as points.</procdesc>
+                <procdate>20130603</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>PLIBRARY.ADMIN.xxxx371520</enttypl>
+            </enttyp>
+            <attr>
+                <attrlabl>ZIP</attrlabl>
+                <attrdef>Five digit zipcode as number</attrdef>
+                <attrdomv>
+                    					
+                    <rdom>
+                        						
+                        <rdommin>98001</rdommin>
+                        						
+                        <rdommax>98580</rdommax>
+                        						
+                        <attrmres>1</attrmres>
+                        					
+                    </rdom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZIPCODE</attrlabl>
+                <attrdef>Five digit zipcode as string</attrdef>
+                <attrdomv>
+                    					
+                    <udom>5 digit zip code as string</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>Three digit county code</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>033</edomv>
+                        						
+                        <edomvd>King County</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature Geometry</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ZIP_TYPE</attrlabl>
+                <attrdef>Zipcode type</attrdef>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>PO Box</edomv>
+                        						
+                        <edomvd>Post Office Box</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.len</attrlabl>
+            </attr>
+        </detailed>
+        <detailed>
+            <enttyp>
+                <enttypl>maint.GISC.zipcode_area</enttypl>
+                <enttypds>ESRI</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.area</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.len</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>KCGIS Center</cntorg>
+                    <cntper>Cheryl Wilder</cntper>
+                </cntorgp>
+                <cntpos>Data Sales Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-5220</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc>/plibrary2/admin/shapes/polygon/zipcode.shp</resdesc>
+        <distliab>King County disclaims any warranty of use of any digital product or data beyond that for which it was designed.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ESRI Shapefile</formname>
+                </digtinfo>
+            </digform>
+            <fees>Contact KCGIS Client Services for the cost of reproduction - http://www.kingcounty.gov/operations/GIS/GISData/GISDataDistribution.aspx</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20130603</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>King County GIS Center</cntorg>
+                    <cntper>Gavin Gray</cntper>
+                </cntorgp>
+                <cntpos>GIS Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>201 S Jackson St, Suite 700</address>
+                    <city>Seattle</city>
+                    <state>WA</state>
+                    <postal>98104</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>206-263-4493</cntvoice>
+                <cntemail>firstname.lastname@kingcounty.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
