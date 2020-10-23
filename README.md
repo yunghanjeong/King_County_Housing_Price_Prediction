@@ -34,16 +34,16 @@ During the exploratory phase following questions will also be focused on:
 6. Implement feature engineering and final model to the data set. 
 
 ## Analysis
-The location of the property was one of the most important factor when determining the property value. It was found that the property price of top 5 neighborhood, ranked by mean property price, doubled the average property price of King County.
+The location of the property was one of the most important factor when determining the property value. It was found that the property price of top 5 neighborhood, ranked by mean property price, doubled the average property price of King County.<br>
 ![rich neighborhoods](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/high_price_neighborhood.png?raw=true)<br>
 
-Mapping the chrolopeth around the these neighborhood shows clear dominance in property price in the area. 
+Mapping the chrolopeth around the these neighborhood shows clear dominance in property price in the area. <br>
 ![rich neighborhoods map](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/zipcode_price_heatmap.png?raw=true)<br>
 
-It was also determined that having a renovated property significantly raised the property price. Basement was a significant feature as well, but not as much as renovation. 
+It was also determined that having a renovated property significantly raised the property price. Basement was a significant feature as well, but not as much as renovation. <br>
 ![house_features](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/basement_renovation_value.png?raw=true)<br>
 
-Surprisingly, property within condition 4/5 had lower average price than properties with conditions 3/5. This could be due to presence in apartments/coops in the data set, which tend to be well maintained, but have lower price per unit compared to private homes. 
+Surprisingly, property within condition 4/5 had lower average price than properties with conditions 3/5. This could be due to presence in apartments/coops in the data set, which tend to be well maintained, but have lower price per unit compared to private homes. <br>
 ![conditions](https://github.com/yunghanjeong/King_County_Housing_Price_Prediction/blob/main/images/condition_value.png?raw=true)<br>
 
 If the company wants to expand their porfolio, it is recommended to look for properties in Medina, Belleve, Mercer Island, Madison Park, and Capitol Hill area. The company should also investigate for renovation potential and purchase any property that may require renovation under $125,000. They should also focus on properties with basement and with properties in condition between 3-4. 
